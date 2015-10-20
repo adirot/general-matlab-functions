@@ -1,6 +1,6 @@
 function hist = my_hist(data,bins)
-% makes a histogram from the data. x is the x axis of the histogram.
-% x must be a linearly spaced vector.
+% makes a histogram from the data. bins is the x axis of the histogram.
+% bins must be a linearly spaced vector.
 
 % to plot the result:
  
