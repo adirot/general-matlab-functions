@@ -27,7 +27,8 @@ plotBar = Results.plotBar;
    for i = 1:numOfPlots
        if plotBar
             increment = x(i,2)-x(i,1);
-            bar(x(i,:)+increment/2,y(i,:),increment,'EdgeColor',cmap(i,:))
+            bar(x(i,:)+increment/2,y(i,:),1,'EdgeColor',cmap(i,:)...
+                ,'FaceColor','none')
        else
             plot(x(i,:),y(i,:),'color',cmap(i,:));
        end
